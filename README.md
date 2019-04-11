@@ -14,3 +14,4 @@ npm start
 ```
 npm run publish-demo
 ```
+Navigate to: https://arias-lucas.github.io/webpack-proof-of-concept/
