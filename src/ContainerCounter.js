@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import PresentationalCounter from "./PresentationalCounter";
 
-const MyComponent = () => {
+const ContainerCounter = () => {
   const [counter, setCounter] = useState(0);
   const incrementCounter = () => setCounter(counter + 1);
+
   return (
     <PresentationalCounter
       counter={counter}
@@ -12,4 +13,4 @@ const MyComponent = () => {
   );
 };
 
-export default MyComponent;
+export default ContainerCounter;

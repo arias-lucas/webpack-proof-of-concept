@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
-import MyComponent from "../../src";
+import ContainerCounter from "../../src/ContainerCounter";
 
-const App = () => <MyComponent />;
+const App = () => <ContainerCounter />;
 
 render(<App />, document.getElementById("root"));
